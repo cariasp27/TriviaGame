@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Trivia</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+      <div class="row rower">
+            <div class="col-lg-6" id="title">
+                    <img src="./assets/images/rnm.png" alt="bloop" style="height:175%">
+            </div>
+          <div class="col-lg-6" id="triv"><h1>Trivia Game</h1></div>
+      </div>
+      <div class="row rower">
+          <div class="col-md-12 content p-2 mb-7">
+                <div class="row">
+                    <div class="col-sm-12" id="tleft"><center><span class="tint" id="timer"></span></center></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 tint" id="qarea"></div>
+                    <div class="col-md-4" >
+                        
+                        <div class="col-sm-12" id="score"><center><span class="tint" id="numscore">Score:0</span></center></div>
+                        
+                        <div class="row">
+                            <div class="col-sm-12" id="pic">
+
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-md-4 tint" id="anarea">
+                        <center>
+                        <div class="row"><span class="answer" id="A"></span></div>
+                        </center>
+                        <center>
+                        <div class="row"><span class="answer" id="B"></span></div>
+                        </center>
+                        <center>
+                        <div class="row"><span class="answer" id="C"></span></div>
+                        </center>
+                        <center>
+                        <div class="row"><span class="answer" id="D"></span></div>
+                        </center>
+                    </div>
+                    
+
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-success btn-lg" id="start">START</button>
+                </div>
+
+          </div>
+      </div>
+
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="assets/javascript/qaobj.js"></script>
+      <script src="assets/javascript/app.js"></script>
+  </body>
+
+</html>
